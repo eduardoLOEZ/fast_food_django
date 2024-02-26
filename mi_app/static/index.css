@@ -1,0 +1,223 @@
+/* Reset de estilos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav h1 {
+    float: left;
+}
+
+nav ul {
+    float: right;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Main Section */
+.main-section {
+    background-color: #333;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.main-section h2 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #555;
+}
+
+/* About Section */
+.about-section {
+    background-color: #333;
+    padding: 50px 0;
+    color: #f5f5f5;
+}
+
+.about-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background-color:#333 ;
+    color: #f5f5f5;
+}
+
+.contact-section h2 {
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.hero-section {
+   
+    background-color: #5e5d5d;
+    
+}
+
+.hero-image {
+    right: 0;
+    width: 60%;
+    height: 50%;
+    object-fit: cover; /* Ajusta el tamaño del SVG al contenedor */
+    z-index: -1; /* Coloca el SVG detrás del contenido del héroe */
+}
+
+@media screen and (min-width: 992px) {
+    .hero-image {
+        width: 30%; /* Ajusta el tamaño del SVG para pantallas más grandes */
+    }
+}
+
+
+.hero-content {
+    color: #fff; /* Color del texto */
+    font-family: 'Arial', sans-serif; /* Fuente del texto */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    transition: all 0.3s ease; /* Transición suave */
+}
+
+/* Estilos adicionales para el texto del héroe */
+.hero-content h1 {
+    color: #fff; /* Color blanco */
+    font-size: 3rem; /* Tamaño de fuente grande */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Sombra de texto */
+    font-weight: bold; /* Negrita */
+}
+
+.hero-content p {
+    color: #fff; /* Color blanco */
+    font-size: 1.2rem; /* Tamaño de fuente */
+}
+
+/* Estilos para el botón */
+.hero-section .btn {
+    background-color: #ffc107; /* Amarillo */
+    color: #ffffff; /* Negro */
+    padding: 15px 30px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 2rem; /* Tamaño de fuente */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    
+}
+
+.carousel-inner .btn {
+    background-color: #ffc107; /* Amarillo */
+    color: #000; /* Negro */
+    padding: 15px 30px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    
+}
+
+
+
+/* Establecer el tamaño deseado para las imágenes del carrusel */
+
+.carousel-item img {
+    width: auto !important;
+    height: 500px;
+    max-height: 500px;
+}
+
+.main-section{
+    background-color: #333;
+    color: #ffffff;
+}
+
+.main-section .btn{
+    background-color: #ffc107; /* Amarillo */
+    color: #000; /* Negro */
+    padding: 15px 30px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    border: none; /* Sin borde */
+    font-size: 1rem; /* Tamaño de fuente */
+    text-transform: uppercase; /* Convertir texto a mayúsculas */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+
+.logo {
+    width: 90px; /* Tamaño deseado para el logo */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+.social-icons {
+    text-align: center; /* Centra los iconos horizontalmente */
+}
+
+.social-icons a {
+    display: inline-block; /* Permite que los enlaces ocupen solo el espacio necesario */
+    margin: 0 10px; /* Añade un pequeño margen entre los iconos */
+}
+
+.social-icons i {
+    font-size: 34px; /* Ajusta el tamaño de los iconos */
+    color: #ffffff;
+}
+
+
+.container i {
+    font-size: 24px;
+
+}
+
+
+
+
+
+
