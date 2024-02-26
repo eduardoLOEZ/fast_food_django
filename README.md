@@ -7,7 +7,7 @@ Clonar el Repositorio
 Para clonar este repositorio, asegúrate de tener Git instalado en tu sistema. Luego, ejecuta el siguiente comando en tu terminal:
 ## Clonar
 ```bash
-git clone https://github.com/tu_usuario/restaurante-xyz.git
+git clone https://github.com/eduardoLOEZ/fast_food_django.git
 ```
 
 ## Installation
